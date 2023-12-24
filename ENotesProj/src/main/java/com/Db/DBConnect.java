@@ -11,7 +11,7 @@ public class DBConnect {
 			if (connection==null) {
 				Class.forName("com.mysql.cj.jdbc.Driver");
 		connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/enotes","root","Root");
-		System.out.println("connection got..");
+		System.out.println("connection got.");
 		
 			}
 		} catch (Exception e) {
